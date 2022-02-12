@@ -1,0 +1,66 @@
+.fondo-img {
+    background-image: linear-gradient(rgba(38, 50, 106, 0.5), rgba(17, 95, 126, 0.5)), url(../../../../assets/img/contacto.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 50%);
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-texto {
+    margin-top: 20px;
+}
+
+.fondo-img h1 {
+    color: #fff;
+}
+
+.contenedor-texto p {
+    font-size: var(--texto-size);
+    text-align: var(--texto-align);
+}
+
+h2 {
+    font-size: var(--subtitulo-size);
+    color: var(--subtitulo-color);
+}
+
+li {
+    list-style: none;
+    text-align: justify;
+}
+
+li img {
+    margin-right: 10px;
+}
+
+
+/* estilos de la seccion de servicios */
+
+.seccion-servicios {
+    background-image: linear-gradient(rgba(38, 50, 106, 0.5), rgba(17, 95, 126, 0.5)), url(../../../../assets/img/area-sistemas-fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contenedor-servicios {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.servicio1,
+.servicio2,
+.servicio3,
+.servicio4 {
+    width: 20%;
+    text-align: center;
+}
+
+.servicio1 {}

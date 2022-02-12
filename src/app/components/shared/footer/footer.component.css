@@ -1,0 +1,134 @@
+/* estilos de la seccion de informacion general */
+
+.seccion-info-general {
+    background: linear-gradient(180deg, #30353B 0%, #1A1B1F 100%);
+    padding: 20px;
+}
+
+.contenedor-info-general {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.contenedor-info-colegio {
+    width: 40%;
+    text-align: justify;
+    color: #f2f2f2;
+}
+
+.contenedor-info-colegio p {
+    text-align: justify;
+}
+
+.contenedor-img-logo {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.img-logo {
+    width: 80%;
+    padding: 10px 0px;
+}
+
+@media screen and (max-width:800px) {
+    .contenedor-info-colegio {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+
+/*  =========== ESTILOS DE LOS ENLACES =================================== */
+
+.contenedor-info-enlaces {
+    width: 15%;
+    color: #f2f2f2;
+}
+
+.contenedor-enlaces {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor-enlaces a {
+    width: 100%;
+    text-decoration: none;
+    color: #f2f2f2;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width:800px) {
+    .contenedor-info-enlaces {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+.contenedor-info-redes-sociales {
+    width: 15%;
+    color: #f2f2f2;
+}
+
+.contenedor-info-redes-sociales a {
+    margin-right: 15px;
+}
+
+.contenedor-info-redes-sociales a img {
+    transition: all .3s ease;
+    width: 50px;
+}
+
+.contenedor-info-redes-sociales a img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+@media screen and (max-width:800px) {
+    .contenedor-info-redes-sociales {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+.contenedor-info-contacto {
+    width: 40%;
+    color: #f2f2f2;
+}
+
+@media screen and (max-width:800px) {
+    .contenedor-info-contacto {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* footer {
+    background: linear-gradient(180deg, #30353B 0%, #1A1B1F 100%);
+    padding: 20px;
+} */
+
+.text-footer {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+/* estilos de la seccion derechos reservados */
+
+.contenedor-derechos {
+    border-top: 1px solid rgb(94, 92, 92);
+}
+
+.contenedor-derechos p {
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+}

@@ -1,0 +1,145 @@
+.general {
+    margin-bottom: 20px;
+}
+
+.general h1 {
+    color: var(--titulo-color);
+    text-align: var(--titulo-centrado);
+    font-size: var(--titulo-size);
+    margin: 30px 0px 60px 0px;
+}
+
+
+/* estilos de los dATOS DE LA EMPRESA */
+
+.fondo-contacto {
+    background-image: linear-gradient(rgba(38, 50, 106, 0.9), rgba(17, 95, 126, 0.9)), url(../../../assets/img/contacto.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 50%);
+    /*  */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    margin-bottom: 20px;
+    transition: all .3s ease;
+}
+
+
+/* .fondo-contacto:hover {
+    transform: scale(1.1, 1.1);
+} */
+
+.fondo-contacto .contenedor-informacion img {
+    margin: 13px 10px;
+}
+
+.fondo-contacto .contenedor-informacion a {
+    color: #fff;
+    display: block;
+    text-align: left;
+    margin-left: 18%;
+}
+
+.contenedor-redes-sociales h4 {
+    color: #fff;
+}
+
+.contenedor-redes-sociales a {
+    margin: 10px;
+}
+
+.contenedor-redes-sociales img {
+    width: 50px;
+    transition: all .3s ease;
+}
+
+.contenedor-redes-sociales img:hover {
+    transform: scale(1.3, 1.3);
+}
+
+
+/* estilos del formulario */
+
+.contenedor-general-formulario h2 {
+    text-align: center;
+    color: var(--subtitulo-color);
+    font-size: var(--subtitulo-size);
+}
+
+.contenedor-general-formulario form {
+    text-align: center;
+}
+
+.contendor-formulario {
+    width: 40%;
+    height: 100%;
+    background: #f2f2f2;
+}
+
+.form {
+    padding: 30px 30px 0 50px;
+}
+
+.title-form {
+    color: #4A90E2;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.grupo {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input {
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #26326A;
+    margin-bottom: 15px 0;
+    resize: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+textarea {
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border: 1px solid #26326A;
+    margin-bottom: 15px 0;
+    resize: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.boton {
+    background: #26326A;
+    color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+}
+
+
+/* estilos del mapa de ubicacion */
+
+.contenedor-mapa .mapa {
+    width: 100%;
+    height: 60vh;
+    margin-top: 20px;
+}

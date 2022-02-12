@@ -1,0 +1,78 @@
+/*  ============ seccion del boton de contactanos =========== */
+
+.seccion-contactanos {
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    animation: colorFondoAutomatico 5s linear infinite alternate both;
+}
+
+@keyframes colorFondoAutomatico {
+    0% {
+        background: #2b5876;
+    }
+    25% {
+        background: #2C3E50;
+    }
+    50% {
+        background: #16222A;
+    }
+    75% {
+        background: #4B79A1;
+    }
+    100% {
+        background: #136a8a;
+    }
+}
+
+.contenedor-contactar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 30vh;
+}
+
+.contenedor-texto-contactar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-texto-contactar h2 {
+    color: #fff;
+}
+
+.contenedor-btn-contactar {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-contactar {
+    width: 50%;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+/* estilos responsivos */
+
+
+/*  ========= seccion de contactanos ====== */
+
+@media screen and (max-width: 800px) {
+    .contenedor-btn-contactar {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .contenedor-texto-contactar {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

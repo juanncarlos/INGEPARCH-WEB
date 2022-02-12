@@ -1,0 +1,66 @@
+.fondo-img {
+    background-image: linear-gradient(rgba(38, 50, 106, 0.5), rgba(17, 95, 126, 0.5)), url(../../../../assets/img/contacto.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 50%);
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fondo-img h1 {
+    color: #fff;
+}
+
+.contenedor-texto {
+    margin-top: 20px;
+}
+
+.contenedor-texto p {
+    font-size: var(--texto-size);
+    text-align: var(--texto-align);
+}
+
+h2 {
+    font-size: var(--subtitulo-size);
+    color: var(--subtitulo-color);
+}
+
+h3 {
+    font-size: var(--subtitulo2-size);
+    color: var(--subtitulo2-color);
+}
+
+li {
+    list-style: none;
+}
+
+li img {
+    margin-right: 10px;
+}
+
+.contenedor-general-tipos-triaxial {
+    width: 100%;
+}
+
+.contenedor-tipos-triaxial {
+    margin-left: 20px;
+}
+
+.contenedor-img-triaxial {
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor-img-triaxial img {
+    width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+    .contenedor-img-triaxial img {
+        width: 100%;
+    }
+}

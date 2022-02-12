@@ -1,0 +1,60 @@
+.contenedor {
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+}
+
+
+/* ************************************ estilos de la seccion servicios ????????????????????????? */
+
+
+/* .contenedor-general-servicios h1 {
+    text-align: var(--titulo-centrado);
+    color: var(--titulo-color);
+    font-size: var(--titulo-size);
+    margin: 30px 0px 20px 0px;
+}
+
+.contenedor-servicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.contenedor-info {
+    width: 45%;
+}
+
+.contenedor-info h2 {
+    font-size: var(--subtitulo-size);
+    color: var( --subtitulo-color);
+}
+
+.contenedor-info p {
+    font-size: var(--texto-size);
+    text-align: var(--texto-align);
+}
+
+.contenedor-info a {
+    background: var(--color-boton);
+    color: var(--boton-color-texto);
+    padding: var(--boton-padding);
+    border-radius: var(--boton-borde);
+    text-decoration: none;
+}
+
+.contenedor-info a:hover {
+    background: var(--color-boton-hover);
+    border: var(--boton-borde-hover);
+    color: var(--boton-color-texto-hover);
+}
+
+.contenedor-img {
+    width: 45%;
+}
+
+.contenedor-img img {
+    width: 100%;
+    height: 50vh;
+} */

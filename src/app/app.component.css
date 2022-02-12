@@ -1,0 +1,9 @@
+.contenedor-navbar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.contenedor-informacion {
+    padding-top: 95px;
+}

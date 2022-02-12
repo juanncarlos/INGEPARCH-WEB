@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --titulo-color: #26326A;
+    --titulo-size: 28px;
+    --titulo-centrado: center;
+    /* subtitulo */
+    --subtitulo-color: #26326A;
+    --subtitulo-size: 26px;
+    /* subtitulo nivel 2 */
+    --subtitulo2-color: #414040;
+    --subtitulo2-size: 20px;
+    /* párrafo */
+    --texto-size: 16px;
+    --texto-align: justify;
+    --texto-font-family: sans-serif;
+    --texto-color: #615e5e;
+    /* estilos para el borde de los contenedores generales de cada seccion */
+    --border-radius: 10px;
+    --box-shadow: 0px 0px 3px 2px rgb(0 0 0 / 20%);
+    --padding: 25px 40px;
+    /* estilos para los botones */
+    --color-boton: #26326A;
+    --boton-padding: 10px 20px;
+    --boton-color-texto: #fff;
+    --boton-borde: 10px;
+    /* estilos boton:hover */
+    --color-boton-hover: #fff;
+    --boton-color-texto-hover: #26326A;
+    --boton-borde-hover: 1px solid #235094;
+}
+
+
+/* estilos del boton de whatsapp */
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.my-float {
+    margin-top: 16px;
+}
